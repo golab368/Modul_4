@@ -38,8 +38,8 @@ while(True):
             logging.debug("Nie dzielimy przez zero")
         else:
             division_sum = value_1/value_2
-        logging.debug("Kalkulator dzieli teraz %s" % value_1 + " / %s" % value_2 + "\n")
-        print("Wynik dzielenia to: %s " % subtraction_sum)  
+            logging.debug("Kalkulator dzieli teraz %s" % value_1 + " / %s" % value_2 + "\n")
+            print("Wynik dzielenia to: %s " % division_sum)   
     elif what_user_want_to_do == "10":
         print("Dziekuje do zobaczenia\n")
         break   
